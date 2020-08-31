@@ -1,11 +1,14 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Grid, Paper } from '@material-ui/core';
-import TextField from '@material-ui/core/TextField';
+import { Grid, Paper, Button, TextField } from '@material-ui/core';
+import FormGroup from '@material-ui/core/FormGroup';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
+  },
+  text: {
+    marginRight: theme.spacing(2),
   },
   paper: {
     padding: theme.spacing(2),
@@ -19,7 +22,10 @@ export default function SearchBox() {
 
   return (
     <div className={classes.root}>
-      <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+      <TextField id="outlined-basic" placeholder="Search products, brands and categories" size="small" variant="outlined" fullWidth className={classes.text} />
+      <Button variant="contained" color="primary">
+        SEARCH
+</Button>
     </div>
   );
 }

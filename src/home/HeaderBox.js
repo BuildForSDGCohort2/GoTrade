@@ -30,9 +30,6 @@ export function HeaderBox() {
           </Grid>
           <Grid item xs={12} sm={6}>
             <SearchBox />
-            <Button variant="contained" color="primary" size="large">
-              SEARCH
-      </Button>
           </Grid>
           <Grid item xs={12} sm={3}>
             <Button variant="contained" color="primary" size="large">
