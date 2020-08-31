@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   text: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(1),
   },
   paper: {
     padding: theme.spacing(2),
