@@ -37,13 +37,13 @@ export function HeaderBox() {
     <Box className={classes.root}>
       <Container>
         <Grid container spacing={2}>
-          <Grid item xs={12} sm={2}>
+          <Grid item xs={12} sm={3}>
             <img src="/img/Gotradelogo.png" className={classes.logo} />
           </Grid>
           <Grid item xs={12} sm={6} >
             <SearchBox />
           </Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={12} sm={3}>
             <Button className={classes.textstyle}>
               <PersonOutlineOutlinedIcon fontSize='medium'/>
               login 
